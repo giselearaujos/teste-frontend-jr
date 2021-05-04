@@ -30,7 +30,7 @@ export default {
 
   components: true,
 
-  buildModules: ['@nuxtjs/style-resources', '@nuxtjs/eslint-module'],
+  buildModules: ['@nuxtjs/style-resources'],
 
   styleResources: {
     scss: './assets/scss/*.scss',
