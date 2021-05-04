@@ -3,11 +3,17 @@
     <Logo />
     <!-- <Logo dark-background /> -->
     <h1 class="leads__title">Leads</h1>
+    <ListUsers :users="users"/> 
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'App',
+  components: {
+    ListUsers
+  }, 
+}
 </script>
 
 <style lang="scss" scoped="true">
