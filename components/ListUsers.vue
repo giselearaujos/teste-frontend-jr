@@ -23,7 +23,25 @@
 
 <script>
 export default {
-    
+    name: 'ListUsers',    
+    data() {
+    return {
+      users: [],
+      search:''
+    }
+  },
+  async fetch() {
+    this.users = await fetch(
+      'https://jsonplaceholder.typicode.com/users'
+    ).then(res => res.json())
+  },
+  computed: {
+    filter: function(){
+      return this.users.filter((user) => {
+        return user.company.name.match(this.search)
+      })
+    }
+  },       
 }
 </script>
 
