@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import ListUsers from '../components/ListUsers';
 export default {
   name: 'App',
   components: {
