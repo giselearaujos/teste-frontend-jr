@@ -13,7 +13,7 @@
           <p><strong>Phone: </strong>{{user.phone}}</p>
           <p><strong>E-mail: </strong>{{user.email}}</p> 
           <p><strong>Website: </strong>{{user.website}}</p> 
-          <p><strong>Phone: </strong>{{user.phone}}</p>           
+          <p><strong>Phrase: </strong>{{user.company.catchPhrase}}</p>           
           <a href="#" class="btn">Read more</a>
         </div>
       </div>       
