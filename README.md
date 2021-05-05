@@ -19,6 +19,9 @@
   <li>🔨 Vue.js (Nuxt.js)</li>
 </ul>
 
+<h2>🎯 Site da Aplicação:</h2>
+<p>🚧 Aprimorando 🚧 </p>
+
 <h2>🎯 Contato:</h2>
 <a href="https://www.linkedin.com/in/gisele-araujo-silva/">Gisele Araujo Silva</a>
 
